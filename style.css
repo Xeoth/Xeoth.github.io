@@ -1,18 +1,16 @@
-/* h1 {
-	font-size: 650%;
-	height: 9em;
-  align-items: center;
-  justify-content: center;
-	margin: 0;
-} */
-
+@font-face {
+  font-family: kalos;
+  src: url('fonts/Kalos.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .center {
     height: 200px;
     width: 400px;
 
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
@@ -41,10 +39,15 @@ html, body {
   font-family: Helvetica;
   text-align: center;
   opacity: 0.7;
+  bottom: 70px;
+  position: relative;
 }
 
 .logo {
   opacity: 0.7;
+  text-align: center;
+  font-family: kalos;
+  font-size: 600%;
 }
 
 p {
